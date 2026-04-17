@@ -1,0 +1,14 @@
+# Runtime dependencies for the Sherlock Holmes RAG chatbot.
+# Mirrors environment.yml and is intended for pip-based deployments
+# (for example Streamlit Community Cloud).
+
+llama-index>=0.14
+llama-index-core>=0.14
+llama-index-embeddings-huggingface>=0.6
+llama-index-llms-groq>=0.4
+sentence-transformers>=3.0
+python-dotenv>=1.0
+streamlit>=1.36
+pandas>=2.1
+ragas>=0.2
+torch>=2.2

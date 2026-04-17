@@ -1,0 +1,33 @@
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Operating system ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Local caches and persisted indexes ---
+local_storage/
+evaluation/evaluation_vector_stores/
+evaluation/evaluation_embedding_models/
+evaluation/evaluation_results/
+
+# --- IDE / editor metadata ---
+.vscode/
+.idea/
+.claude/
+*.excalidraw
+
+# --- Miscellaneous ---
+*.log
