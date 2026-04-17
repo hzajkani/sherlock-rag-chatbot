@@ -5,19 +5,20 @@ channels:
   - defaults
 
 dependencies:
+
   # --- Conda packages ---
   - python=3.12
   - pytorch
-  - llama-index
-  - llama-index-core
-  - llama-index-embeddings-huggingface
   - python-dotenv
   - sentence-transformers
   - streamlit
   - pandas
-  - ragas
   - pip
 
   # --- Pip packages ---
   - pip:
+    - llama-index
+    - llama-index-core
+    - llama-index-embeddings-huggingface
+    - ragas
     - llama-index-llms-groq
